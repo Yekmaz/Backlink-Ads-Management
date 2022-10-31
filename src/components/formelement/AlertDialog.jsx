@@ -30,7 +30,7 @@ export default function AlertDialog({ alert, handleClose }) {
         </DialogContentText>
       </DialogContent>
       <DialogActions>
-        <Button onClick={() => handleClose(true)} sx={{color:"red"}}>تایید</Button>
+        <Button onClick={() => handleClose(true)} sx={{color:"red"}}>OK</Button>
         <Button onClick={() => handleClose(false)} sx={{color:"black"}} autoFocus>
           Cancel
         </Button>
